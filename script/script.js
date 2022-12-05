@@ -38,8 +38,15 @@ for (let i = 0; i < ourTeam.length; i++) {
     <div id="${ourTeam[i].name}" class="card mb-2 m-2" style="width: 18rem;">
         <img src = "./img/${ourTeam[i].photo}" class="card-img-top" alt = "..." >
             <div class="card-body">
-                <h5>Name: <span>${ourTeam[i].name}</span></h5>
-                <h5>Role: <span>${ourTeam[i].name}</span></h5>
+                <div class="d-flex">
+                    <h5>Name: </h5>
+                    <span> ${ourTeam[i].name}</span>
+                </div>
+
+                <div class="d-flex">
+                    <h5>Role: </h5>
+                    <span> ${ourTeam[i].name}</span>
+                </div>
             </div>
     </div >`;
 }
