@@ -1,0 +1,12 @@
+main {
+    width: 60rem;
+    margin: auto;
+    display: flex;
+}
+h5 {
+    font-size: 1.1rem;
+}
+h5 > span {
+    font-weight: 400;
+    font-size: initial;
+}
