@@ -29,6 +29,8 @@ const ourTeam = [{
 ];
 
 //print in console properties and values 
-for ( let key in ourTeam) {
-    console.log(ourTeam[key]["name"], ourTeam[key]["role"], ourTeam[key]["photo"]);
+for (let i = 0; i < ourTeam.length; i++) {
+    console.log(ourTeam[i].name);
+    console.log(ourTeam[i].role);
+    console.log(ourTeam[i].photo);
 }
