@@ -28,19 +28,18 @@ const ourTeam = [{
     }
 ];
 
-let cardOne = document.getElementById("wayne_barnett");
+let cardOne = document.getElementById("card-container");
 //print in console properties and values 
 for (let i = 0; i < ourTeam.length; i++) {
     console.log(ourTeam[i].name);
     console.log(ourTeam[i].role);
     console.log(ourTeam[i].photo);
     cardOne.innerHTML += `
-    <div class="card" style="width: 18rem;">
-        <img src = "..." class="card-img-top" alt = "..." >
+    <div id="${ourTeam[i].name}" class="card mb-2 m-2" style="width: 18rem;">
+        <img src = "./img/${ourTeam[i].photo}" class="card-img-top" alt = "..." >
             <div class="card-body">
                 <p class="card-text">${ourTeam[i].name}</p>
                 <p class="card-text">${ourTeam[i].role}</p>
-                <p class="card-text">${ourTeam[i].photo}</p>
             </div>
     </div >`;
 }
