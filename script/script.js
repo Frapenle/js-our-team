@@ -30,5 +30,5 @@ const ourTeam = [{
 
 //print in console properties and values 
 for ( let key in ourTeam) {
-    console.log(ourTeam[key]);
+    console.log(ourTeam[key]["name"], ourTeam[key]["role"], ourTeam[key]["photo"]);
 }
