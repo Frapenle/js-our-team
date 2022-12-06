@@ -3,10 +3,14 @@ main {
     margin: auto;
     display: flex;
 }
+
 h5 {
     font-size: 1.1rem;
+    text-align: center;
 }
+
 h5 > span {
     font-weight: 400;
     font-size: initial;
+    text-align: center;
 }
